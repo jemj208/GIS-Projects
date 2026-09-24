@@ -16,7 +16,7 @@
 
 ## 🌿 عن المشروع
 
-المدينة بالنسبة لي ليست مجرد مساحة على الخريطة، بل مكان أعرفه وأحبه وأستمتع بقراءته مكانيًا.
+المدينة بالنسبة لي ماهي مجرد مساحة على الخريطة، لكنها مكان أعرفه جداً وأحبه وأستمتع بقراءته مكانيًا.
 
 بدأ هذا المشروع من سؤال بسيط:
 
@@ -24,9 +24,9 @@
 
 بدلًا من قياس المسافة بخط مستقيم، حاولت النظر إلى التجربة كما يعيشها الزائر فعليًا: **من خلال شبكة المشي والمسار الذي يمكن قطعه على الأرض.**
 
-جمعت بيانات الفنادق وشبكة الطرق، بنيت شبكة للمشاة، وحللت أقصر المسارات إلى مجموعة مختارة من بوابات المسجد النبوي، ثم حولت النتائج إلى مستكشف Web GIS تفاعلي يسمح باستكشاف الفنادق، أزمنة المشي، المسارات، ونطاق خدمة كل بوابة.
+جمعت بيانات الفنادق وشبكة الطرق، وبنيت شبكة للمشاة، وحللت أقصر المسارات إلى مجموعة مختارة من بوابات المسجد النبوي، ثم حولت النتائج إلى مستكشف Web GIS تفاعلي يسمح باستكشاف الفنادق، أزمنة المشي، المسارات، ونطاق خدمة كل بوابة.
 
-هذا المشروع **تجربة GIS شخصية مستقلة**، أستكشف من خلالها كيف يمكن للتحليل المكاني أن يقرأ مدينتي من زاوية إنسانية مرتبطة بالحركة والوصول وتجربة الزائر.
+هذا المشروع **تجربة GIS شخصية مستقلة** أستكشف من خلالها كيف يمكن للتحليل المكاني أن يقرأ مدينتي من زاوية إنسانية مرتبطة بالحركة والوصول وتجربة الزائر.
 
 **— أمجاد عبدالله المرواني**  
 *GIS Specialist · Spatial Analyst · Cartographer*
@@ -134,38 +134,39 @@ The dashboard includes:
 
 ---
 
-## 📱 Designed Beyond the Desktop
+## 📱 Mobile Experience
 
-The dashboard was designed to adapt to smaller screens, allowing the spatial story to remain explorable from mobile devices.
+The dashboard was designed to adapt to smaller screens, allowing the spatial analysis to remain explorable from mobile devices.
 
 <p align="center">
-  <img src="assets/dashboard-mobile.png" alt="Mobile dashboard view" width="320">
+  <img src="assets/dashboard-mobile.jpg" alt="Mobile view of the accessibility dashboard" width="320">
 </p>
 
 The responsive interface reorganizes the map, indicators and controls for mobile exploration while preserving the core analytical functionality.
 
----
+### 🎥 Mobile Demo
 
-## 🎥 Interactive Demo
-
-A short walkthrough demonstrates the dashboard interaction:
+A short mobile walkthrough demonstrates the interactive experience:
 
 **Hotel search → route exploration → walking-time filtering → gate analysis**
 
-<!-- 
-If you upload a demo video, replace the line below with its GitHub file link.
-[▶ Watch the dashboard demo](assets/dashboard-demo.mp4)
--->
+<p align="center">
+  <a href="assets/dashboard-mobile-video.mp4">
+    ▶️ <strong>Watch the Mobile Dashboard Demo</strong>
+  </a>
+</p>
 
 ---
 
 ## 🔍 What This Project Explores
 
-This project is not intended only to answer *"How far is this hotel from the mosque?"*
+This project is not intended only to answer:
+
+> *"How far is this hotel from the mosque?"*
 
 It explores a broader GIS idea:
 
-**Accessibility is shaped by networks, not simply by proximity.**
+### **Accessibility is shaped by networks, not simply by proximity.**
 
 Two hotels with similar straight-line distances may have different pedestrian experiences depending on network connectivity and the gate through which the mosque is accessed.
 
@@ -175,19 +176,19 @@ This makes network analysis useful for understanding movement within dense urban
 
 ## 🛠️ Tech & Methods
 
-**GIS & Spatial Analysis**
+### GIS & Spatial Analysis
 
 `Network Analysis` · `Shortest Path` · `Accessibility Analysis` · `Spatial Data Preparation`
 
-**Web GIS**
+### Web GIS
 
 `Leaflet` · `HTML` · `CSS` · `JavaScript`
 
-**Data**
+### Data
 
 `OpenStreetMap`
 
-**Algorithm**
+### Algorithm
 
 `Dijkstra Shortest Path`
 
@@ -216,7 +217,7 @@ Results should therefore be interpreted as **approximate analytical estimates**,
 
 For me, GIS becomes most meaningful when spatial analysis connects with places that carry meaning.
 
-Madinah is my city, and this project gave me an opportunity to combine **spatial analysis, urban movement, cartography and interactive mapping** around a place I know personally.
+Madinah is my city, and this project gave me an opportunity to combine **spatial analysis, urban movement, cartography, and interactive mapping** around a place I know personally.
 
 It is also part of a broader goal in my work:
 
@@ -228,11 +229,12 @@ It is also part of a broader goal in my work:
 
 ### 🕌 Made in Madinah
 
-**Amjad Abdullah Al-Marwani**  
+**Amjad Abdullah Al-Marwani**
+
 *GIS Specialist · Spatial Analyst · Cartographer*
 
 `Spatial Analysis` · `GIS Automation` · `Remote Sensing` · `Interactive Mapping`
 
-🌿 **From Madinah, with maps.**
+### 🌿 From Madinah, with maps.
 
 </div>
